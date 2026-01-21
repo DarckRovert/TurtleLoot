@@ -1,0 +1,60 @@
+## Interface: 11200
+## Title: TurtleLoot |cff00ff00v1.0.0|r
+## Notes: Comprehensive loot management addon for Turtle WoW - GDKP, Soft Reserves, +1 tracking, Master Looting and more
+## Author: TurtleLoot Team
+## Version: 1.0.0
+## DefaultState: enabled
+## SavedVariables: TurtleLootDB
+## OptionalDeps: Atlas-TW
+
+
+
+# Bootstrap
+bootstrap.lua
+
+# Utilities
+Utils\shims.lua
+Utils\Constants.lua
+Utils\Helpers.lua
+
+Utils\Backup.lua
+
+# Data
+Data\DefaultSettings.lua
+Data\ItemDatabase.lua
+
+# Core Systems
+Core\Database.lua
+Core\Settings.lua
+Core\Events.lua
+Core\Communication.lua
+Core\Tooltips.lua
+Core\Init.lua
+
+# Modules
+Modules\AwardedLoot.lua
+Modules\RollOff.lua
+
+Modules\MasterLoot.lua
+Modules\SoftRes.lua
+Modules\PlusOnes.lua
+Modules\GDKP.lua
+
+
+Modules\AtlasIntegration.lua
+Modules\BossEncounter.lua
+
+# UI Components
+UI\MinimapButton.lua
+UI\MainWindow.lua
+UI\RollWindow.lua
+UI\AwardDialog.lua
+UI\Settings.lua
+
+UI\StatsWindow.lua
+
+UI\SyncIndicator.lua
+UI\AuctionMonitor.lua
+
+# Test files (optional, for debugging)
+
